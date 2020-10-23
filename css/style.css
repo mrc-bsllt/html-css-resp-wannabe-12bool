@@ -15,21 +15,15 @@ img {
   height: 200px;
 }
 h2,
-.image,
 h3,
-p {
+p,
+.image {
   text-align: center;
 }
 .text {
   padding: 0 20px;
 }
 /* /css generale */
-
-/* css header */
-header.container {
-
-}
-/* /css header */
 
 /* css main */
 /* lection */

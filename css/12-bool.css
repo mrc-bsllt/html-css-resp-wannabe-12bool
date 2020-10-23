@@ -9,7 +9,7 @@
   border: 1px solid #000000;
   border-top: none;
 }
-body > .container {
+body .container {
   max-width: 1170px;
   margin: 0 auto;
 }

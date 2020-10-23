@@ -1,0 +1,33 @@
+body {
+  font-size: 17px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+h2 {
+  font-size: 1.4em;
+  margin: 15px 0;
+}
+/* css header */
+header.container {
+  margin-top: 80px;
+}
+header > .main-title {
+  text-align: center;
+}
+/* /css header */
+
+/* css main */
+
+#lection > div {
+  padding: 0 25px;
+}
+#lection img {
+  height: 200px;
+}
+.image,
+.text {
+  text-align: center;
+}
+/* /css main */

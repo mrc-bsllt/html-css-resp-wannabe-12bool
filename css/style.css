@@ -45,10 +45,12 @@ h2,
   margin-top: 100px;
   background-color: #f9f9f9;
 }
+#why .image {
+  margin-top: 80px;
+}
 #why img {
   height: 260px;
   padding: 30px;
-  margin-top: 80px;
   background-color: #428bca;
   border-radius: 50%;
 }
@@ -89,7 +91,8 @@ h2,
     height: 150px;
   }
   #lection,
-  #steps {
+  #steps,
+  #why {
     padding: 15px;
     border-bottom: 2px solid #a57130;
   }
@@ -112,6 +115,11 @@ h2,
   #lection .image {
     width: 40%;
   }
+  #lection .image img {
+    padding: 10px;
+    border: 1px solid #a57130;
+    border-radius: 5px;
+  }
   #lection .text {
     width: 60%;
     text-align: left;
@@ -133,6 +141,42 @@ h2,
   }
   /* /steps */
 
+  /* why */
+  #why {
+    margin-top: 0;
+  }
+  #why::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  #icon .image,
+  #secure .image,
+  #flex .image {
+    margin-top: 50px;
+  }
+  #why img {
+    height: 200px;
+  }
+  #why .text {
+    padding: 0 20px;
+  }
+  #why h3 {
+    margin-top: 25px;
+  }
+  #icon,
+  #secure {
+    float: left;
+    width: 50%;
+  }
+  #icon hr,
+  #secure hr {
+    display: none;
+  }
+  #secure {
+    border-left: 2px solid #a57130;
+  }
+  /* /why */
 
 }
 /* /css media md */

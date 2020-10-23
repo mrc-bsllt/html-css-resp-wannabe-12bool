@@ -2,32 +2,45 @@ body {
   font-size: 17px;
 }
 
-h1 {
-  margin-bottom: 20px;
-}
+/* css generale */
 h2 {
-  font-size: 1.4em;
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+h3 {
   margin: 15px 0;
+  font-size: 1.4em;
 }
-/* css header */
-header.container {
-  margin-top: 80px;
-}
-header > .main-title {
-  text-align: center;
-}
-/* /css header */
-
-/* css main */
-
-#lection > div {
-  padding: 0 25px;
-}
-#lection img {
+img {
   height: 200px;
 }
+h2,
 .image,
 .text {
   text-align: center;
 }
+.text {
+  padding: 0 20px;
+}
+/* /css generale */
+
+/* css header */
+header.container {
+  margin-top: 80px;
+}
+/* /css header */
+
+/* css main */
+/* lection */
+#lection {
+  margin-bottom: 100px;
+}
+/* /lection */
+
+/* steps */
+#steps {
+  padding: 5px 0;
+  background-color: #f9f9f9;
+}
+/* /steps */
 /* /css main */

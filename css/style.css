@@ -1,5 +1,5 @@
 body {
-  font-size: 17px;
+  font-size: 18px;
 }
 
 /* css generale */
@@ -43,4 +43,21 @@ header.container {
   background-color: #f9f9f9;
 }
 /* /steps */
+
+/* why */
+#why {
+  margin-top: 100px;
+  background-color: #f9f9f9;
+}
+#why img {
+  height: 260px;
+  padding: 30px;
+  margin-top: 80px;
+  background-color: #428bca;
+  border-radius: 50%;
+}
+#why .text p {
+  margin-bottom: 10px;
+}
+/* /why */
 /* /css main */

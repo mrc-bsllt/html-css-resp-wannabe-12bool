@@ -81,7 +81,8 @@ header.container {
     height: 120px;
   }
   header,
-  #lection {
+  #lection,
+  #why {
     background-color: #f2f2cd;
   }
   .text {
@@ -105,6 +106,23 @@ header.container {
   }
   /* /lection xs */
 
+  /* steps xs */
+  #steps {
+    padding: 10px 0;
+    background-color: #ffffff;
+  }
+  /* /steps xs */
+
+  /* why xs */
+  #why {
+    margin-top: 0;
+    padding: 10px 0;
+  }
+  #why img {
+    height: 120px;
+    margin-top: 20px;
+  }
+  /* /why xs */
   /* /main xs */
 
 }

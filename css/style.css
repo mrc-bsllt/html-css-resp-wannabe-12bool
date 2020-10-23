@@ -62,6 +62,23 @@ header.container {
 /* /why */
 /* /css main */
 
+/* css media md */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+  #lection .images,
+  #lection .text {
+    float: left;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+}
+/* /css media md */
+
+
 /* media xs */
 @media screen and (max-width: 767px) {
   /* generale xs */
@@ -88,9 +105,7 @@ header.container {
   .text {
     padding: 0 10px;
   }
-
   /* /generale xs */
-
 
   /* header xs */
   header.container {

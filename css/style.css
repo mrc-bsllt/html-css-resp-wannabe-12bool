@@ -61,3 +61,51 @@ header.container {
 }
 /* /why */
 /* /css main */
+
+/* media xs */
+@media screen and (max-width: 767px) {
+  /* generale xs */
+  h2 {
+    margin-bottom: 0;
+    font-size: 1.6em;
+  }
+  h3 {
+    margin: 0 0 3px 0;
+    font-size: 1.2em;
+  }
+  p {
+    font-size: 0.7em;
+  }
+  img {
+    margin-top: 20px;
+    height: 120px;
+  }
+  header,
+  #lection {
+    background-color: #f2f2cd;
+  }
+  .text {
+    padding: 0 10px;
+  }
+
+  /* /generale xs */
+
+
+  /* header xs */
+  header.container {
+    margin-top: 0;
+  }
+  /* /header xs */
+
+  /* main xs */
+  /* lection xs */
+  #lection {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+  }
+  /* /lection xs */
+
+  /* /main xs */
+
+}
+/* /media xs */

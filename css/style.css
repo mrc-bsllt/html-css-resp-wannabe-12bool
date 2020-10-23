@@ -61,6 +61,78 @@ h2,
 /* css media md */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
+  /* generale */
+  body {
+    background-color: #1c1c1c;
+    color: #aeaeae;
+    font-family: 'Roboto', sans-serif;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h2 {
+    font-size: 1.9em;
+    color: #425f54;
+  }
+  h3 {
+    margin: 0 0 15px 0;
+    font-size: 1.3em;
+    color: #a57130;
+  }
+  p {
+    font-size: 1.1em;
+    font-weight: 500;
+  }
+  img {
+    height: 150px;
+  }
+  #lection,
+  #steps {
+    padding: 15px;
+    border-bottom: 2px solid #a57130;
+  }
+    #steps,
+    #why {
+      background-color: #1c1c1c;
+      color: #aeaeae;
+    }
+  /* /generale */
+
+  /* lection */
+  #lection {
+    margin: 0;
+  }
+  #lection .image,
+  #lection .text {
+    float: left;
+    margin-bottom: 15px;
+  }
+  #lection .image {
+    width: 40%;
+  }
+  #lection .text {
+    width: 60%;
+    text-align: left;
+  }
+  /* /lection */
+
+  /* steps */
+  #steps .image {
+    margin-bottom: 15px;
+  }
+  #steps img {
+    height: 120px;
+  }
+  #steps .text {
+    padding: 0 30px;
+  }
+  #steps .container > div:last-child {
+    margin-top: 30px;
+  }
+  /* /steps */
+
 
 }
 /* /css media md */

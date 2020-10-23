@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CONTAINER */
+.debug > .container {
+  border: 1px solid #000000;
+  border-top: none;
+}
+body > .container {
+  max-width: 1170px;
+  height: 150px;
+  min-height: 150px;
+  margin: 0 auto;
+}
+[class*="col-"] > .container {
+  height: 100%;
+}
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* /CONTAINER */
+
+/* COLONNE */
+/* COLONNE GENERALE */
+[class*="col-"] {
+  float: left;
+  height: 100%;
+}
+.debug .container > [class*="col-"] {
+  padding: 5px;
+  background-color: #486077;
+  border-right: 1px solid #000000;
+}
+.debug .container > [class*="col-"]:last-child {
+  border-right: none;
+}
+.debug [class*="col-"] > .container [class*="col-"] {
+  background-color: #3b4045;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  border-right: none;
+}
+.debug [class*="col-"] > .container [class*="col-"]:last-child {
+  border-right: 1px solid #ffffff;
+}
+/* /COLONNE GENERALE */
+
+/* COLONNE SPECIFICO */
+.col-1 {
+  width: calc(100% / 12);
+}
+.col-2 {
+  width: calc((100% / 12) * 2);
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: calc((100% / 12) * 4);
+}
+.col-5 {
+  width: calc((100% / 12) * 5);
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: calc((100% / 12) * 7);
+}
+.col-8 {
+  width: calc((100% / 12) * 8);
+}
+.col-9 {
+  width: calc((100% / 12) * 9);
+}
+.col-10 {
+  width: calc((100% / 12) * 10);
+}
+.col-11 {
+  width: calc((100% / 12) * 11);
+}
+.col-12 {
+  width: 100%;
+}
+/* /COLONNE SPECIFICO */
+/* /COLONNE */
+
+/* OFFSET COLONNE */
+.debug .container > [class*="off-col-"] {
+  border-left: 1px solid #000000;
+}
+.off-col-1 {
+  margin-left: calc(100% / 12);
+}
+.off-col-2 {
+  margin-left: calc((100% / 12) * 2);
+}
+.off-col-3 {
+  margin-left: 25%;
+}
+.off-col-4 {
+  margin-left: calc((100% / 12) * 4);
+}
+.off-col-5 {
+  margin-left: calc((100% / 12) * 5);
+}
+.off-col-6 {
+  margin-left: 50%;
+}
+.off-col-7 {
+  margin-left: calc((100% / 12) * 7);
+}
+.off-col-8 {
+  margin-left: calc((100% / 12) * 8);
+}
+.off-col-9 {
+  margin-left: calc((100% / 12) * 9);
+}
+.off-col-10 {
+  margin-left: calc((100% / 12) * 10);
+}
+.off-col-11 {
+  margin-left: calc((100% / 12) * 11);
+}
+/* /OFFSET COLONNE */
+
+/* POSIZIONAMENTO AL CENTRO */
+.cntrl-algn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cntrl-algn-y {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translatey(-50%);
+}
+/* /POSIZIONAMENTO AL CENTRO */

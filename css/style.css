@@ -16,7 +16,8 @@ img {
 }
 h2,
 .image,
-.text {
+h3,
+p {
   text-align: center;
 }
 .text {
@@ -26,13 +27,14 @@ h2,
 
 /* css header */
 header.container {
-  margin-top: 80px;
+
 }
 /* /css header */
 
 /* css main */
 /* lection */
 #lection {
+  margin-top: 80px;
   margin-bottom: 100px;
 }
 /* /lection */
@@ -65,15 +67,6 @@ header.container {
 /* css media md */
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-  #lection .images,
-  #lection .text {
-    float: left;
-  }
-  .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
 }
 /* /css media md */
